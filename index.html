@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="Section-1-bg">
+        <div class="overlay"></div>
+     <aside>
+        <div class="icon-menu" onclick="abrirmenu()">
+            <img src="menu-aberto.png">
+        </div><!--icon-menu-->
+
+        <div id="barra-menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#sobremim">Sobre mim</a></li>
+            </ul>
+
+            <div class="C-icon">
+                <span class="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                <span class="icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                <span class="icon"><ion-icon name="logo-twitter"></ion-icon></span>
+
+            </div><!--icon-->
+        </div><!--barra-menu-->
+     </aside>
+
+    
+        <div class="title-bar">">
+            <h1>Olá, me chamo Davi Sousa</h1>
+            <h2>Iniciante desenvolvedor web</h2>
+        </div>
+    </div><!--Section-1-bg-->
+
+
+    <section class="C-sobre" data-aos="fade-up" id="sobremim">
+        <div class="image">
+            <img src="imagi.jpg">
+        </div><!--image-->
+
+        <div class="Sobre-mim" >
+            <h1>Sobre mim</h1>
+            <h4>Desenvolvedor & <span>desing</span></h4>
+            <p>Olá, meu nome é Davi Sousa Lima, tenho 18 anos e sou estudante do IFMA Campus Açailândia. 
+            <br>Atualmente, estou cursando o 3º ano do ensino médio e também o curso técnico de Informática. 
+            <br>Este é o meu portfólio, onde compartilho os projetos que desenvolvi e minha jornada como 
+            <br>iniciante no mundo do desenvolvimento web. </p>
+
+        </div><!--Sobre-mim-->
+    </section><!---C-sobre-->
+
+    <section class="Skills" data-aos="fade-up" id="skills">
+        <h1>Habilidades</h1>
+        <p>HTML</p>
+        <div class="Container-s">
+            <div class="skills html">90%</div>
+          </div>
+        <p>CSS</p>
+        <div class="Container-s">
+            <div class="skills css">80%</div>
+        </div>
+          
+        <p>JavaScript</p>
+        <div class="Container-s">
+            <div class="skills js">10%</div>
+        </div>
+          
+        <p>Python</p>
+        <div class="Container-s">
+            <div class="skills php">85%</div>
+        </div>  
+    </section>
+
+
+    <section class="Container" data-aos="fade-up" id="projetos">
+        <h1>Projetos</h1>
+        <p>Alguns de meus projetos</p>
+        <div class="C-card" data-aos="fade-up">
+            <div class="Card">
+                <img src="obra.jpg" alt="Em desenvolvimento">
+                <h3>Curriculo</h3>
+                <h4>
+                    <br> 
+                    <br> 
+                    <br> </h4>
+            </div><!--Card-->
+
+        </div><!--C-card-->
+
+        <div class="C-card-2" data-aos="fade-up">
+
+            <div class="Card">
+                <img src="obra.jpg" alt="Em desenvolvimento">
+                <h3>Desenvolvimento Web</h3>
+                <h4>Loja 
+                    <br> 
+                    <br> 
+                    <br> </h4>
+            </div><!--Card-->
+
+        </div><!--C-card-2-->
+    </section><!--conatiner-->
+
+    <section class="C-rodapé" >
+        <h1>Site desenvolvido Por mim</h1>
+    </section><!--C-rodapé-->
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+</body>
+</html>
